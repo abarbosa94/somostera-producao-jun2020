@@ -19,7 +19,7 @@ DISTRIB_MEAN = 3
 DISTRIB_STD = (1,)
 DISTRIB_SAMPLE_SIZE = 100
 N_ITER_RANDOM = 100
-DATA_DIR = "../data/houses/house_dataset1.csv"
+DATA_DIR = "../data/houses/house_dataset.csv"
 PIPELINE_DIR = "artifacts/pipeline01.joblib"
 SEED = 42
 

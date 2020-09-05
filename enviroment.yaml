@@ -1,0 +1,24 @@
+name: tera-env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - rise
+  - ipywidgets
+  - numpy
+  - pandas
+  - scikit-learn=0.23.1
+  - seaborn
+  - flask
+  - pip
+  - pip:
+    - black==19.10b0
+    - isort
+    - eli5
+    - shap
+    - Flask-Script==2.0.6
+    - Flask-SQLAlchemy==2.4.1
+    - Flask-Migrate==2.5.2
+    - mlflow==1.11.0
+prefix: /Users/abarbosa/miniconda3/envs/tera-env
+

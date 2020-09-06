@@ -1,5 +1,6 @@
 import argparse
 import logging
+import os
 import sys
 
 import numpy as np
@@ -53,5 +54,6 @@ def hello_world():
 
 
 if __name__ == "__main__":
-
-    app.run(host="0.0.0.0", port=5000)
+    port = int(os.environ.get("PORT", 5000))
+    from waitress import serve
+    serve(app, host="0.0.0.0", port=port)
